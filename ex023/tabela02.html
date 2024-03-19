@@ -11,6 +11,12 @@
         table{
             width:500px;
             border-collapse: collapse;
+            position: relative;
+        }
+        thead>tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
         
         th,td{
@@ -45,7 +51,7 @@
         <thead>
             <tr>
                 <th scope="col">Estado</th>
-                <td scope="col" style="width:20                 0px">Populacao</td>
+                <th scope="col">Populacao</th>
             </tr>
         </thead>
 
